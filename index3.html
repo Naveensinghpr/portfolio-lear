@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+
+
+
+   <style>
+
+ .body{
+   position:relative ;
+   display: flex;
+   width: 100px;
+   justify-content: center;
+   align-items: center;
+   background:rgb(red, green, blue)
+
+ }
+
+ .slide_container{
+  position: relative;
+  width: 60%;
+  min-width: 50rem;
+  height: 40rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow:hidden;
+
+
+ }
+
+.slider{
+
+    position: relative;
+     width: 400%;
+     min-width: 50rem;
+     display: flex;
+     height: 100%;
+     justify-content: space-between;
+     align-items: center;
+     overflow: hidden;
+     flex-direction: row;
+
+
+
+}
+
+.slide-one img{
+    width: 100%;
+    height: 100%;
+    background: rgb(red, green, blue);
+
+
+
+
+
+
+}
+
+.slide-two img{
+  width: 50%;
+  height: 50%;
+
+}
+
+.slide-three img{
+    width: 100%;
+    
+}
+
+
+@keyframes sliding{
+0%{
+    transform: translateX(0%);
+}
+
+
+20%{
+    transform: translateX(0%)
+
+
+}
+
+
+25%{
+    transform: translateX(0%)
+}
+    
+}
+
+   </style> 
+</head>
+
+
+
+
+<body>
+
+   <section  class ="slide_container">
+         <section class = "slider">
+
+            <div class=" slide-one">
+
+
+                <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1_DO0jQ_sLFzW6oCkJnhCAe3NnTt_wlV_QQ&s"alt = "">
+
+                      <span>
+
+                        Slide one
+                      </span>
+
+                    </div>
+             <div  class ="slide-two">
+                <img src ="https://img.traveltriangle.com/blog/wp-content/uploads/2018/11/Rivers-of-the-World-Cover.jpg"alt ="">
+
+             <span  class ="caption"  >
+                Slide two
+             </span>
+
+             </div>
+
+
+             <div class ="slide-three">
+                 <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf8LMirApgj_R-O4aqqlDLVyLeIF_Dhtkepg&s"alt ="">
+
+               <span class ="caption">
+
+
+               </span>
+
+             </div>
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+         </section>
+
+
+
+
+
+
+
+
+
+   </section>
+
+
+
+
+    
+</body>
+</html>
